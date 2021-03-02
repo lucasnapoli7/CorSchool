@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using CorSchool.App;
 using CorSchool.Entities;
 using CorSchool.Util;
@@ -14,7 +15,11 @@ namespace CorSchool
             var engine = new SchoolEngine();
             engine.Initialize();
             var objList = engine.GetSchoolObjects(); 
-            //PrintCourses(engine.school);
+            var listIPlace =    from obj in objList
+                                where obj is IPlace
+                                select (IPlace)obj;
+
+            //engine.school.ClearPlace();
         }
 
         private static void PrintCourses(School school)
