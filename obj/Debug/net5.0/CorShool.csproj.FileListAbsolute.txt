@@ -1,0 +1,16 @@
+/home/napoli/Documents/CSharp/CorSchool/bin/Debug/net5.0/CorShool
+/home/napoli/Documents/CSharp/CorSchool/bin/Debug/net5.0/CorShool.deps.json
+/home/napoli/Documents/CSharp/CorSchool/bin/Debug/net5.0/CorShool.runtimeconfig.json
+/home/napoli/Documents/CSharp/CorSchool/bin/Debug/net5.0/CorShool.runtimeconfig.dev.json
+/home/napoli/Documents/CSharp/CorSchool/bin/Debug/net5.0/CorShool.dll
+/home/napoli/Documents/CSharp/CorSchool/bin/Debug/net5.0/ref/CorShool.dll
+/home/napoli/Documents/CSharp/CorSchool/bin/Debug/net5.0/CorShool.pdb
+/home/napoli/Documents/CSharp/CorSchool/obj/Debug/net5.0/CorShool.csprojAssemblyReference.cache
+/home/napoli/Documents/CSharp/CorSchool/obj/Debug/net5.0/CorShool.GeneratedMSBuildEditorConfig.editorconfig
+/home/napoli/Documents/CSharp/CorSchool/obj/Debug/net5.0/CorShool.AssemblyInfoInputs.cache
+/home/napoli/Documents/CSharp/CorSchool/obj/Debug/net5.0/CorShool.AssemblyInfo.cs
+/home/napoli/Documents/CSharp/CorSchool/obj/Debug/net5.0/CorShool.csproj.CoreCompileInputs.cache
+/home/napoli/Documents/CSharp/CorSchool/obj/Debug/net5.0/CorShool.dll
+/home/napoli/Documents/CSharp/CorSchool/obj/Debug/net5.0/ref/CorShool.dll
+/home/napoli/Documents/CSharp/CorSchool/obj/Debug/net5.0/CorShool.pdb
+/home/napoli/Documents/CSharp/CorSchool/obj/Debug/net5.0/CorShool.genruntimeconfig.cache

@@ -11,10 +11,10 @@ namespace CorSchool
     {
         static void Main(string[] args)
         {
-           var engine = new SchoolEngine();
-           engine.Initialize();
-
-           //PrintCourses(engine.school);
+            var engine = new SchoolEngine();
+            engine.Initialize();
+            var objList = engine.GetSchoolObjects(); 
+            //PrintCourses(engine.school);
         }
 
         private static void PrintCourses(School school)

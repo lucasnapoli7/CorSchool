@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hwKV+GuoybjHyA+oeCpm87tioVJnRyUIib3MasA7AIFv2U58DLwUtpbTATMK9gQ05l1IpUH+ABF9lNKVnXyoBA==",
+  "dgSpecHash": "Qk40Hb4pT0pp5t9hS2LEfDmaqetlI9to8+TobexBeqB8xlZD5tmWMHYJ3B2WAtL5GZAFnHLVDlAUNnyYKKEkAQ==",
   "success": true,
-  "projectFilePath": "/home/napoli/Documents/CSharp/stage1/stage1.csproj",
+  "projectFilePath": "/home/napoli/Documents/CSharp/CorSchool/CorShool.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

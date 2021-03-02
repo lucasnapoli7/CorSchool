@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/napoli/Documents/CSharp/stage1/stage1.csproj",
-      "projectName": "stage1",
-      "projectPath": "/home/napoli/Documents/CSharp/stage1/stage1.csproj",
+      "projectUniqueName": "/home/napoli/Documents/CSharp/CorSchool/CorShool.csproj",
+      "projectName": "CorShool",
+      "projectPath": "/home/napoli/Documents/CSharp/CorSchool/CorShool.csproj",
       "packagesPath": "/home/napoli/.nuget/packages/",
-      "outputPath": "/home/napoli/Documents/CSharp/stage1/obj/",
+      "outputPath": "/home/napoli/Documents/CSharp/CorSchool/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/napoli/.nuget/NuGet/NuGet.Config"

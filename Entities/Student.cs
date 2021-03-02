@@ -3,14 +3,8 @@ using System.Collections.Generic;
 
 namespace CorSchool.Entities
 {
-    public class Student
+    public class Student: SchoolBaseObject
     {
-        public string UniqueId { get; private set; }
-        public string Name { get; set; } 
-        public List<Tests> Test { get; set;}
-        public Student(){
-            UniqueId = Guid.NewGuid().ToString();
-            Test = new List<Tests>(){};
-            }
+        public List<Test> Tests { get; set;} = new List<Test>();
     }
 }

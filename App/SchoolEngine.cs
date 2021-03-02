@@ -5,7 +5,7 @@ using CorSchool.Entities;
 
 namespace CorSchool.App
 {
-    public class SchoolEngine
+    public sealed class SchoolEngine
     {
         public School school { get; set; }
 
@@ -26,37 +26,56 @@ namespace CorSchool.App
         {
             foreach (var course in school.Courses)
             {
-                Console.WriteLine($"\n{course.Name}");
+                //Console.WriteLine($"\n{course.Name}");
                 foreach (var subject in course.Subjects)
                 {
                     foreach (var student in course.Students)
                     {
                         var rnd = new Random();
-                        for (int i = 1; i <= 1; i++)
+                        for (int i = 1; i <= 5; i++)
                         {
-                            var test = new Tests{
+                            var test = new Test{
                                 Name = $"{subject.Name} Test#{i}",
                                 Subjects = subject,
-                                Grade = (float)(10*rnd.NextDouble()),
+                                Note = (float)(10*rnd.NextDouble()),
                                 Student = student
                             };
-                            Console.WriteLine($"{student.Name} - {test.Name}: {test.Grade}");
-                            student.Test.Add(test);
+                            //Console.WriteLine($"{student.Name} - {test.Name}: {test.Note}");
+                            student.Tests.Add(test);
                         }
                     }
                 }   
             }
         }
 
+        public List<SchoolBaseObject> GetSchoolObjects()
+        {
+            var objList = new List<SchoolBaseObject>();
+            objList.Add(school);
+            objList.AddRange(school.Courses);
+            foreach (var course in school.Courses)
+            {
+                objList.AddRange(course.Subjects);   
+                objList.AddRange(course.Students);
+
+                foreach (var student in course.Students)
+                {
+                    objList.AddRange(student.Tests);
+                }   
+            }
+
+            return objList;
+        }
+
         private void SubjectsLoad()
         {
             foreach (var course in school.Courses)
             {
-                List<Subjects> subjectsList = new List<Subjects>(){
-                    new Subjects{Name="Math"},
-                    new Subjects{Name="Physical education"},
-                    new Subjects{Name="Spanish"},
-                    new Subjects{Name="Natural Sciences"},
+                List<Subject> subjectsList = new List<Subject>(){
+                    new Subject{Name="Math"},
+                    new Subject{Name="Physical education"},
+                    new Subject{Name="Spanish"},
+                    new Subject{Name="Natural Sciences"},
                 };
                 course.Subjects= subjectsList;
             }
