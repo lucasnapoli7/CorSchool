@@ -1,0 +1,16 @@
+/home/napoli/Documents/CSharp/stage1/bin/Debug/net5.0/stage1
+/home/napoli/Documents/CSharp/stage1/bin/Debug/net5.0/stage1.deps.json
+/home/napoli/Documents/CSharp/stage1/bin/Debug/net5.0/stage1.runtimeconfig.json
+/home/napoli/Documents/CSharp/stage1/bin/Debug/net5.0/stage1.runtimeconfig.dev.json
+/home/napoli/Documents/CSharp/stage1/bin/Debug/net5.0/stage1.dll
+/home/napoli/Documents/CSharp/stage1/bin/Debug/net5.0/ref/stage1.dll
+/home/napoli/Documents/CSharp/stage1/bin/Debug/net5.0/stage1.pdb
+/home/napoli/Documents/CSharp/stage1/obj/Debug/net5.0/stage1.csprojAssemblyReference.cache
+/home/napoli/Documents/CSharp/stage1/obj/Debug/net5.0/stage1.GeneratedMSBuildEditorConfig.editorconfig
+/home/napoli/Documents/CSharp/stage1/obj/Debug/net5.0/stage1.AssemblyInfoInputs.cache
+/home/napoli/Documents/CSharp/stage1/obj/Debug/net5.0/stage1.AssemblyInfo.cs
+/home/napoli/Documents/CSharp/stage1/obj/Debug/net5.0/stage1.csproj.CoreCompileInputs.cache
+/home/napoli/Documents/CSharp/stage1/obj/Debug/net5.0/stage1.dll
+/home/napoli/Documents/CSharp/stage1/obj/Debug/net5.0/ref/stage1.dll
+/home/napoli/Documents/CSharp/stage1/obj/Debug/net5.0/stage1.pdb
+/home/napoli/Documents/CSharp/stage1/obj/Debug/net5.0/stage1.genruntimeconfig.cache
